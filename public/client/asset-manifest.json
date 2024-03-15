@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69f868f5.css",
+    "main.js": "/static/js/main.96bdd0e6.js",
+    "static/js/453.258b012d.chunk.js": "/static/js/453.258b012d.chunk.js",
+    "static/media/House.png": "/static/media/House.e00a563de53baef2e942.png",
+    "static/media/Background.png": "/static/media/Background.2571c887f1c7d10c11ef.png",
+    "static/media/FindHouseImg.png": "/static/media/FindHouseImg.70dbd90f1f59a7508c31.png",
+    "static/media/ShowcaseProperty.png": "/static/media/ShowcaseProperty.6267adf33f3bd98a0ce1.png",
+    "static/media/Confirm.png": "/static/media/Confirm.619a44e0b0d4bbb04771.png",
+    "static/media/ConnectImg.png": "/static/media/ConnectImg.10a3bd3f5f0846f227fb.png",
+    "index.html": "/index.html",
+    "main.69f868f5.css.map": "/static/css/main.69f868f5.css.map",
+    "main.96bdd0e6.js.map": "/static/js/main.96bdd0e6.js.map",
+    "453.258b012d.chunk.js.map": "/static/js/453.258b012d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69f868f5.css",
+    "static/js/main.96bdd0e6.js"
+  ]
+}
