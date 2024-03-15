@@ -6,7 +6,7 @@ import connectToDb from "./db/index.js";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 const app = express();
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -14,6 +14,7 @@ app.use(bodyParser.json({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 app.use(express.static(join(__dirname, "public", "client")));
+app.set("trust proxy", 1);
 app.use("/", router);
 
 Promise.all([connectToDb()])
