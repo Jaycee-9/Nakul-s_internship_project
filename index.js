@@ -6,7 +6,7 @@ import connectToDb from "./db/index.js";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 8000;
 
 const app = express();
 const __dirname = dirname(fileURLToPath(import.meta.url));
